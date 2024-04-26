@@ -1,0 +1,55 @@
+*{
+    padding:0px;
+    margin:0px;
+}
+body{
+    
+}
+.cont{
+
+display: flex;
+ justify-content: center;
+ align-items: center;
+ height: 100vh;
+ align-text: centre;
+ 
+ 
+}
+.btn{
+border: none;
+    border-radius: 10px;
+    padding: 8px 10px;
+    background-color: #ff00f1;
+}
+.hexcolors{
+    text-align: center;
+    
+}
+.hexcolors h1{
+      text-transform: uppercase;
+      animation: colorchange 5s infinite alternate;
+}
+.hexcolors h2{
+    margin-top: 15%;
+}
+@keyframes colorchange{
+    0%{
+        color: indigo;
+    }
+    20%{
+        color: blue;
+    }
+    40%{
+        color: yellow;
+    }
+    60%{
+        color: orange;
+    }
+    80%{
+        color:green;
+    }
+    100%{
+        color:red;
+    }
+    
+}
